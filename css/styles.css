@@ -1,0 +1,162 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(10, 62, 78);
+    color: #eee;
+}
+h2 {
+    text-align: center;
+}
+/* Header */
+header {
+    background-color: rgb(5, 39, 49);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navbar */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eee;
+}
+
+/* Estilos para la card "Sobre mí" */
+#sobre-mi {
+    padding: 2rem;
+    text-align: center;
+}
+
+.sobre-mi-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    background: rgb(16, 96, 121);
+    border-radius: 12px;
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.5);
+}
+
+.sobre-mi-content {
+    text-align: left;
+}
+
+.sobre-mi-card img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* habilidades  medio copipaste de "sobre-mi"*/
+#habilidades {
+    padding: 2rem;
+    text-align: center;
+}
+
+#habilidades .card {
+    background: rgb(16, 96, 121);
+    border-radius: 12px;
+    padding: 1.5rem;
+    max-width: 400px;
+    margin: 0 auto; /* Esto centra horizontalmente */
+    box-shadow: 0 20px 25px rgba(0,0,0,0.5);
+    border: none; /* Elimina el borde gris fulero */
+    color: #eee;
+}
+
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#habilidades li {
+    padding: 0.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+#habilidades li::before { /* El marker*/
+    content: "•";
+    color: #4fc3f7; 
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Responsive: Cambia a columna en móvil */
+@media (max-width: 768px) {
+    .sobre-mi-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .sobre-mi-texto {
+        text-align: center;
+    }
+}
+
+/* cards */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 320px;
+    text-align: center;
+    transition: transform 0.3s; /* Animación hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto hover */
+}
+
+.img-card {
+    width: 300px;
+    height: auto;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
