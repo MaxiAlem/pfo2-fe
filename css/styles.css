@@ -62,6 +62,13 @@ nav a {
     border-radius: 8px;
     object-fit: cover;
 }
+.sobre-mi-card img {
+    border-radius: 8px;
+    object-fit: cover;
+    width: 15vw;
+    height: auto;
+
+}
 
 /* habilidades  medio copipaste de "sobre-mi"*/
 #habilidades {
@@ -110,6 +117,12 @@ nav a {
     
     .sobre-mi-texto {
         text-align: center;
+    }
+    .sobre-mi-card img {
+      
+        width: 70vw;
+      height: auto;
+    
     }
 }
 
