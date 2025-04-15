@@ -124,6 +124,15 @@ nav a {
       height: auto;
     
     }
+    .img-card {
+        width: 80vw;
+        height: auto;
+    }
+    .card {
+        
+        width: 81vw;
+        
+    }
 }
 
 /* cards */
@@ -138,7 +147,7 @@ nav a {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
-    width: 320px;
+    width: 21vw;
     text-align: center;
     transition: transform 0.3s; /* Animación hover */
 }
@@ -148,7 +157,7 @@ nav a {
 }
 
 .img-card {
-    width: 300px;
+    width: 20vw;
     height: auto;
 }
 
