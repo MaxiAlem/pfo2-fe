@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded',() =>{
 
     // Mostramos el número en algún lugar de la página
     const contador = document.createElement('div');
-    contador.textContent = `👀 Esta es tu visita número ${visitas} (premio soropresa al N° 1000)`;
+    contador.textContent = `👀 Esta es tu visita número ${visitas} (premio sorpresa al N° 1000)`;
     contador.style.margin = '1em';
     contador.style.fontWeight = 'bold';
     darkModeToggle.insertAdjacentElement('afterend', contador);
